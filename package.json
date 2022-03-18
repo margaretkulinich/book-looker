@@ -1,7 +1,7 @@
 {
   "name": "library",
   "version": "0.1.0",
-  "homepage": "https://margaretkulinich.github.io/",
+  "homepage": "https://margaretkulinich.github.io/book-looker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
