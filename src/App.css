@@ -1,0 +1,13 @@
+.main-content {
+    padding-bottom: 40px;
+}
+
+.footer {
+    color: #5C8FC6;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 20px;
+}

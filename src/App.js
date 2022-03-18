@@ -14,8 +14,9 @@ import { About } from './components/About/About';
 function App() {
   return (
     <Router>
-      <NavHeader />
-      <div className="routes-container">
+      <div className='main-content'>
+        <NavHeader />
+        
         <Routes>
           <Route exact path='/about' element={<About />} />
           <Route exact path='/contact' element={<Contact />} />
@@ -23,6 +24,8 @@ function App() {
           <Route path='/' element={<HomePage />} />
         </Routes>
       </div>
+
+      <footer className='footer'>&copy; 2022 by Marharyta Kulinich</footer>
     </Router>
   );
 }

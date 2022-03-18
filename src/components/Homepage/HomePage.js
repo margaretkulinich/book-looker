@@ -19,9 +19,9 @@ export function HomePage() {
 
             <SectionList />
 
-            <footer className={classes.footer}>
+            <section className={classes.descriptionBanner}>
                 <h2 className={classes.title}>All books in one place</h2>
-            </footer>
+            </section>
         </HomepageContainer>
     )
 }

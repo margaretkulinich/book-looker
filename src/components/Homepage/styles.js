@@ -8,7 +8,7 @@ export const classes = {
     bannerHeadline: 'banner-headline',
     textDescription: 'banner-text-description',
     title: 'homepage-title',
-    footer: 'footer',
+    descriptionBanner: 'homepage-description-banner',
     navLink: 'nav-link',
 }
 
@@ -40,7 +40,7 @@ export const HomepageContainer = styled.section`
 
     .${classes.textDescription} {
         font-size: 1.2em;
-        width: 80%
+        width: 70%
     }
 
     .${classes.navLink} {
@@ -49,8 +49,9 @@ export const HomepageContainer = styled.section`
         font-size: larger;
         font-weight: 600;
         color: ${MAIN_FONT_COLOR};
+        max-width: 135px;
     }
-    
+
     .${classes.title} {
         width: 100%;
         text-align: center;
@@ -61,7 +62,7 @@ export const HomepageContainer = styled.section`
         text-shadow: grey 1px 1px 2px;
     }
 
-    .${classes.footer} {
+    .${classes.descriptionBanner} {
         height: 450px;
         width: 100%;
         background: no-repeat center url(https://www.allianceindependentauthors.org/wp-content/uploads/2019/11/3-home-page.png);
@@ -88,7 +89,6 @@ export const HomepageContainer = styled.section`
             font-size: 1.8em;
         }
     }
-
 `;
 
 export const SearchButton = styled(Button)`
