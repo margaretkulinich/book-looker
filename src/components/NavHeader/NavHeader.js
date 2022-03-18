@@ -8,13 +8,13 @@ export function NavHeader() {
     return (
         <Navigation>
             <div className={classes.navItem}>
-                <NavLink to='/' className={classes.navLink}>
+                <NavLink to='/book-looker' className={classes.navLink}>
                     <FontAwesomeIcon
                         icon={faGlasses}
                         className={classes.iconLooker}
                     />
                 </NavLink>
-                <NavLink to='/' className={classes.navLink}>BookLooker</NavLink>
+                <NavLink to='/book-looker' className={classes.navLink}>BookLooker</NavLink>
             </div>
             <div className={classes.navItem}>
                 <NavLink to='/about' className={classes.navLink}>About</NavLink>
